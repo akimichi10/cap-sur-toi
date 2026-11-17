@@ -1,0 +1,17 @@
+CAP SUR TOI — PREMIÈRE VERSION DE TEST
+
+Cette version est une maquette web interactive autonome. Elle affiche votre position GPS et peut orienter une aiguille vers des coordonnées de test. Elle ne partage PAS encore les positions entre deux téléphones et ne possède PAS encore de code secret.
+
+POUR LA TESTER SUR IPHONE
+1. Décompressez le dossier.
+2. Publiez les fichiers sur un hébergement HTTPS (par exemple GitHub Pages). Le site doit être servi via HTTPS pour utiliser le GPS.
+3. Ouvrez le lien avec Safari sur iPhone.
+4. Touchez « Activer ma position et la boussole » et acceptez les autorisations.
+5. Ouvrez « Tester avec une position de destination », entrez des coordonnées et validez.
+6. Dans Safari, touchez Partager > Sur l’écran d’accueil > Ajouter.
+
+ATTENTION
+- Le cap du navigateur iPhone doit être testé sur un vrai appareil. Selon les autorisations et la disponibilité des capteurs, l’aiguille peut rester orientée par rapport au nord de la carte.
+- Le bouton de partage n’envoie aucune donnée pour le moment.
+- La synchronisation sécurisée à deux sera une étape distincte. Un code commun seul ne suffit pas à protéger des positions GPS ; nous mettrons en place une authentification et un appairage sécurisé.
+- Ne pas utiliser pour la navigation ou la sécurité en mer.
